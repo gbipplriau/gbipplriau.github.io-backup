@@ -382,6 +382,13 @@ ul.entries {
     list-style: none;
     padding: 0;
 }
+hr {
+    border-color: #333;
+}
+ul.tag_box {
+    list-style: none;
+    padding: 0;
+}
 ul.entries li {
     margin-bottom: 50px;
     border-bottom: 1px solid #333;
@@ -400,4 +407,10 @@ footer p {
     font-size: 15px;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #ddd;    
+}
+img.profile {
+    border-radius: 50%;
+    margin-bottom: 10px;
+    height: 250px;
+    width: 250px;
 }

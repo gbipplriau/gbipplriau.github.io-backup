@@ -17,6 +17,16 @@ author :
   twitter : webrangeriit
   feedburner : webrangeriit
 
+navigation:
+  - title: Beranda
+    url: /index.html
+  - title: Ranger
+    url: /about.html
+  - title: Blog
+    url: /archive.html
+  - title: Kategori
+    url: /categories.html
+
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
 # Most places will/should use BASE_PATH to make the urls
@@ -69,6 +79,7 @@ JB :
   # These paths are to the main pages Jekyll-Bootstrap ships with.
   # Some JB helpers refer to these paths; change them here if needed.
   #
+  about_path: /about.html
   archive_path: /archive.html
   categories_path : /categories.html
   tags_path : /tags.html
@@ -80,7 +91,7 @@ JB :
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    provider : disqus
+    provider : sonnylazuardi
     disqus :
       short_name : webranger
     livefyre :
@@ -120,8 +131,9 @@ JB :
   # Settings for all other include helpers can be defined by creating 
   # a hash with key named for the given helper. ex:
   #
-  #   pages_list :
-  #     provider : "custom"   
+  pages_list :
+    - title: Home
+      url: /index.html
   #
   # Setting any helper's provider to 'custom' will bypass the helper code
   # and include your custom code. Your custom file must be defined at:
